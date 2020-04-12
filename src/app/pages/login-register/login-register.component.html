@@ -1,6 +1,9 @@
-<div class="container-fluid mt-5 pt-5">
+<div class="container auth-box">
     <div class="card mx-auto border-0">
       <div class="card-header border-bottom-0 bg-transparent">
+        <div class="text-center py-2">
+            <img src="assets/food-logo.png" class="food-logo">
+        </div>
         <ul class="nav nav-tabs justify-content-center pt-4" id="pills-tab" role="tablist">
           <li class="nav-item">
             <a class="nav-link active text-primary" id="pills-login-tab" data-toggle="pill" href="#pills-login" role="tab" aria-controls="pills-login"
@@ -8,7 +11,7 @@
           </li>
   
           <li class="nav-item">
-            <a class="nav-link active text-primary" id="pills-register-tab" data-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register"
+            <a class="nav-link text-primary" id="pills-register-tab" data-toggle="pill" href="#pills-register" role="tab" aria-controls="pills-register"
                aria-selected="false">Register</a>
           </li>
         </ul>
@@ -26,22 +29,13 @@
                 <input type="password" name="password" class="form-control" id="password" id="password" placeholder="Password" required>
               </div>
   
-              <div class="custom-control custom-checkbox">
-                <input class="custom-control-input" id="customCheck1" checked="" type="checkbox">
-                <label class="custom-control-label" for="customCheck1">Check me out</label>
-              </div>
-  
               <div class="text-center pt-4">
                 <button type="submit" class="btn btn-primary">Login</button>
-              </div>
-  
-              <div class="text-center pt-2">
-                <a class="btn btn-link text-primary" href="#">Forgot Your Password?</a>
               </div>
             </form>
           </div>
   
-          <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
+          <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
             <form>
               <div class="form-group">
                 <input type="text" name="username" id="name" class="form-control" placeholder="Username" required autofocus>
@@ -65,6 +59,9 @@
             </form>
           </div>
         </div>
+      </div>
+      <div class="text-center pb-4">
+        <i class="fas fa-arrow-left"></i> <a routerLink=""> Back to Home</a>
       </div>
     </div>
   </div>

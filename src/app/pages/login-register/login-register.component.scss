@@ -1,16 +1,15 @@
-.container-fluid {
-    background: url('../../../assets/bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color:red;
-}
-
 .card {
   width: 300px;
 }
 
-.nav-item .nav-link[disabled]:hover {
-  
+.auth-box{
+    padding-top: 25vh;
+}
+
+.nav-link{
+  font-weight: bold;
+}
+
+.food-logo{
+  width: 100px;
 }
